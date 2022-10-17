@@ -1,0 +1,32 @@
+[profile]
+name = "Redmi Note 9"
+
+# Fingerprint scanner
+[[keys]]
+type = "key"
+key = "z"
+action = 353
+
+# Volume keys
+[[keys]]
+type = "key"
+key = "z"
+action = 115
+
+[[keys]]
+type = "key"
+key = "x"
+action = 114
+
+# Touchscreen
+[[keys]]
+type = "abs"
+key = "z"
+x = "ignore"
+y = [0, 1170]
+
+[[keys]]
+type = "abs"
+key = "x"
+x = "ignore"
+y = [1170, 2340]

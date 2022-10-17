@@ -33,6 +33,20 @@ Found exact match: uinput-fpc
 fpchid ready
 ```
 
+## Profile mode (new)
+You can use a profile mode to get a better support for your phone and use extra features:
+```
+$ python fpchid.py --profile profiles/redmi_note_9.toml 
+Using profile mode
+Profile: Redmi Note 9
+```
+
+### What you can do with profile mode
+* Program any possible key on your phone to press any possible key on your keyboard
+* Program touchscreen area to trigger a key on your keyboard
+
+Currently touchscreen functionality is a bit broken and using multiple fingers at the time will break everything
+
 ## Troubleshooting
 ### fpchid says that it cant detect the fingerprint sensor
 Either your device doesnt have one, or it wasnt detected.
